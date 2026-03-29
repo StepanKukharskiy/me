@@ -1,8 +1,19 @@
 
+<script module>
+  export const prerender = true;
+</script>
+
 <main class="container">
   <section class="hero">
-    <h1>Stepan Kukharskiy</h1>
-    <p class="tagline">Architect, computational designer, and technical founder.</p>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Stepan Kukharskiy</h1>
+        <p class="tagline">Architect, computational designer, and technical founder.</p>
+      </div>
+      <div class="hero-image">
+        <img src="/Stepan_Kukharskiy.jpg" alt="Stepan Kukharskiy" />
+      </div>
+    </div>
     
     <p class="intro">
       I'm the co-founder of <strong>SA lab</strong> and currently building <strong>Spellshape</strong> — an AI-native system for generating editable parametric 3D, which I see as a first step toward a design world model.
@@ -42,7 +53,6 @@
     <h2>Get in Touch</h2>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/StepanKukharskiy" target="_blank" rel="noopener">GitHub</a>
     </div>
   </section>
 </main>
@@ -69,6 +79,29 @@
     color: #666;
     margin-bottom: 2rem;
     font-weight: 500;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero-image {
+    flex-shrink: 0;
+  }
+  
+  .hero-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .intro {
@@ -146,6 +179,17 @@
     
     .tagline {
       font-size: 1.1rem;
+    }
+    
+    .hero-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .hero-image img {
+      width: 120px;
+      height: 120px;
     }
     
     .social-links {
