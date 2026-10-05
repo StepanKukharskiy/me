@@ -11,3 +11,5 @@ Allow: /
 
 User-agent: PerplexityBot
 Allow: /
+
+Sitemap: https://stepankukharskiy.com/sitemap.xml

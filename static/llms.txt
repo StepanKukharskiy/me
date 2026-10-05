@@ -1,25 +1,28 @@
 # Stepan Kukharskiy
-Architect, computational designer, and technical founder.
+I build systems that turn AI output into structured, editable work.
+Architect, computational designer, founder and co-founder of SA lab. Working with parametric design since 2010.
 
-I'm the co-founder of SA lab and currently building Spellshape — an AI-native system for generating editable parametric 3D, which I see as a first step toward a design world model.
+## Thesis
+Artifacts should preserve enough structure to be inspected, changed and continued.
 
-I've been working with parametric design since 2010, across architecture, computation, and interactive 3D. My work focuses on turning design intent into structured systems, spatial logic, and tools that remain editable, extensible, and buildable.
+## Independent Projects
+- Relay: routines become portable Skills and jobs with artifacts, evidence, checks and exceptions. https://task-relay-website-production.up.railway.app
+- Spellshape / Live OBJ: standard OBJ geometry with #@ metadata for semantic/procedural editability in compatible tools. https://spellshape.com ; https://github.com/StepanKukharskiy/live-obj
+- Drawing Analysis Engine: PDF drawing evidence, declared values, calculations and engineer approval remain separate; source/audit PDF, SQLite state and hashed results preserved. https://github.com/StepanKukharskiy/drawing-analysis-engine
+- SA lab: computational architecture and digital fabrication. https://salab.org/eng
 
-## What I Do
-I work across computational architecture, procedural design, AI, and product development. Through SA lab, my architectural work has been published on platforms including ArchDaily and Designboom, and I also develop projects for virtual environments such as Decentraland and Worlds.
+## Personal Archive
+- Projects: https://stepankukharskiy.com/projects
+- AI Work: https://stepankukharskiy.com/ai-work
+- Excel-to-PowerPoint experiment: https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation
+- Teaching: https://stepankukharskiy.com/teaching
 
-## Projects
-- Spellshape: AI-native system for generating editable parametric 3D
-- SA lab: Algorithmic architecture and computational design practice
+## Teaching
+Lectures, webinars and workshops on computational design, AI workflows and spatial tools, including work with DesignMorphine and DigitalFUTURES.
 
-## Skills
-Rhino, Grasshopper, Blender, Unity, Unreal Engine, Arduino, SvelteKit, Svelte, Firebase, Supabase, PocketBase, Python, JavaScript, TypeScript, Three.js, parametric design, procedural generation, computational geometry, real-time 3D, AI workflows, and interactive prototyping.
+## Distribution
+The personal site owns the narrative and canonical articles. Medium distributes article copies. Relay hosts executable Skills and downloads. GitHub hosts technical sources. Proposed integrations between projects must be tested separately.
 
-## Speaking
-Alongside product and design work, I give lectures, webinars, and workshops on computational design, AI workflows, and emerging spatial tools for international design communities including DesignMorphine and DigitalFUTURES.
-
-## Links
-- GitHub: https://github.com/StepanKukharskiy
-- Spellshape: https://github.com/StepanKukharskiy
-- SA lab: https://salab.org/eng
-- LinkedIn: https://www.linkedin.com/in/stepan-kukharskiy-25347342
+## Contact
+https://www.linkedin.com/in/stepan-kukharskiy-25347342
+https://github.com/StepanKukharskiy

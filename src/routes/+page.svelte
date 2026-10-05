@@ -1,200 +1,41 @@
-
-<script module>
-  export const prerender = true;
-</script>
-
-<main class="container">
-  <section class="hero">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1>Stepan Kukharskiy</h1>
-        <p class="tagline">Architect, computational designer, and technical founder.</p>
+<svelte:head>
+  <title>Stepan Kukharskiy — AI Output into Structured, Editable Work</title>
+  <meta name="description" content="I build systems that turn AI output into structured, editable work. Relay, Spellshape / Live OBJ, drawing analysis, practical experiments and teaching." />
+  <link rel="canonical" href="https://stepankukharskiy.com/" />
+  <meta property="og:title" content="Stepan Kukharskiy — AI Output into Structured, Editable Work" />
+  <meta property="og:description" content="Editable geometry, traceable drawing analysis and reusable AI workflows." />
+  <meta property="og:type" content="website" />
+</svelte:head>
+<div class="container">
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a class="name" href="/">Stepan Kukharskiy</a><nav aria-label="Main navigation"><a href="/projects">Projects</a><a href="/ai-work">AI Work</a><a href="/teaching">Teaching</a></nav></header>
+  <main id="main">
+    <section class="hero">
+      <div class="identity"><p class="eyebrow">Architect · computational designer · founder</p><img src="/Stepan_Kukharskiy.jpg" alt="Stepan Kukharskiy" width="112" height="112" /></div>
+      <h1>I build systems that turn AI output into structured, editable work.</h1>
+      <p class="lede">The result should carry enough structure to be inspected, changed and continued: geometry with editable intent, analysis tied to evidence, and routines with retained files and checks.</p>
+      <div class="thesis" aria-label="Working thesis"><span>AI output</span><span aria-hidden="true">→</span><strong>Structured work</strong></div>
+    </section>
+    <section class="projects">
+      <p class="eyebrow">One thesis, different domains</p><h2>Projects</h2>
+      <div class="project-grid">
+        <article><p class="domain">Routines → reusable work</p><h3>Relay</h3><p>Turn a messy routine into a Skill and job, with artifacts, evidence, checks and explicit exceptions. Keep the work ready to continue.</p><a href="/projects#relay">Explore Relay →</a></article>
+        <article><p class="domain">Intent → editable geometry</p><h3>Spellshape / Live OBJ</h3><p>Keep portable mesh geometry together with semantic and procedural metadata, so a scene can keep changing in tools that understand it.</p><a href="/projects#live-obj">Explore Live OBJ →</a></article>
+        <article><p class="domain">Drawing → traceable analysis</p><h3>Drawing Analysis Engine</h3><p>Keep drawing evidence, declared values, calculations and engineer approval separate. Preserve the source and explain unresolved geometry.</p><a href="/projects#drawing-engine">Explore the engine →</a></article>
       </div>
-      <div class="hero-image">
-        <img src="/Stepan_Kukharskiy.jpg" alt="Stepan Kukharskiy" />
-      </div>
-    </div>
-    
-    <p class="intro">
-      I'm the co-founder of <strong>SA lab</strong> and currently building <strong>Spellshape</strong> — an AI-native system for generating editable parametric 3D, which I see as a first step toward a design world model.
-    </p>
-    
-    <p class="intro">
-      I've been working with parametric design since 2010, across architecture, computation, and interactive 3D. My work focuses on turning design intent into structured systems, spatial logic, and tools that remain editable, extensible, and buildable.
-    </p>
-  </section>
-
-  <section class="what-i-do">
-    <h2>What I Do</h2>
-    <p>I work across computational architecture, procedural design, AI, and product development. Through SA lab, my architectural work has been published on platforms including ArchDaily and Designboom, and I also develop projects for virtual environments such as Decentraland and Worlds.</p>
-  </section>
-
-  <section class="selected-links">
-    <h2>Selected Links</h2>
-    <ul>
-      <li><a href="https://www.archdaily.com/912669/flexse-sa-lab?fbclid=IwAR2q9RfUC_53yqwSQyqK7z4pInsldlQz3ZGTiGEVzxQ_21Z0hvWduV761v4" target="_blank" rel="noopener">ArchDaily</a></li>
-      <li><a href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/" target="_blank" rel="noopener">Designboom</a></li>
-      <li><a href="https://archinect.com/salab/project/crane-design-showroom" target="_blank" rel="noopener">Archinect</a></li>
-      <li><a href="https://architizer.com/projects/crane-design-showroom/" target="_blank" rel="noopener">Architizer</a></li>
-      <li><a href="https://github.com/StepanKukharskiy" target="_blank" rel="noopener">GitHub</a></li>
-    </ul>
-  </section>
-
-  <section class="speaking">
-    <p>Alongside product and design work, I give lectures, webinars, and workshops on computational design, AI workflows, and emerging spatial tools for international design communities including DesignMorphine and DigitalFUTURES.</p>
-  </section>
-
-  <section class="skills">
-    <h2>Skills</h2>
-    <p>Rhino, Grasshopper, Blender, Unity, Unreal Engine, Arduino, SvelteKit, Svelte, Firebase, Supabase, PocketBase, Python, JavaScript, TypeScript, Three.js, parametric design, procedural generation, computational geometry, real-time 3D, AI workflows, and interactive prototyping.</p>
-  </section>
-
-  <section class="connect">
-    <h2>Get in Touch</h2>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
-  </section>
-</main>
-
+    </section>
+    <section class="ai-work"><p class="eyebrow">Experiments and field notes</p><h2>AI Work</h2><p>I'm testing recurring tasks with real inputs, saved outputs and explicit checks. Each article documents what worked, what preparation was needed and what remains unresolved.</p><p><a href="/ai-work/excel-to-powerpoint-automation">Excel to PowerPoint: updating a recurring report with AI →</a></p><p><a href="/ai-work">All experiments →</a></p></section>
+    <section><p class="eyebrow">Sharing the method</p><h2>Teaching</h2><p>Lectures, workshops and webinars on computational design, AI workflows and spatial tools, drawing on the systems and experiments I build.</p><a href="/teaching">Teaching and workshops →</a></section>
+    <section class="background"><h2>Background</h2><p>I've worked with parametric design since 2010 and co-founded <a href="https://salab.org/eng">SA lab</a>. My work connects architecture, computation and interactive 3D, with an emphasis on tools and artifacts that stay editable and buildable.</p><p>Architectural work has been published by <a href="https://www.archdaily.com/912669/flexse-sa-lab">ArchDaily</a>, <a href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/">Designboom</a>, <a href="https://archinect.com/salab/project/crane-design-showroom">Archinect</a> and <a href="https://architizer.com/projects/crane-design-showroom/">Architizer</a>.</p></section>
+  </main>
+  <footer><a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a href="https://github.com/StepanKukharskiy">GitHub</a><a href="/ai-work/privacy">Website request privacy</a></footer>
+</div>
 <style>
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  .hero h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: #1a1a1a;
-  }
-  
-  .tagline {
-    font-size: 1.25rem;
-    color: #666;
-    margin-bottom: 2rem;
-    font-weight: 500;
-  }
-  
-  .hero-content {
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .hero-text {
-    flex: 1;
-  }
-  
-  .hero-image {
-    flex-shrink: 0;
-  }
-  
-  .hero-image img {
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .intro {
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-  }
-  
-  .intro strong {
-    color: #2563eb;
-  }
-  
-  h2 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin: 3rem 0 1.5rem 0;
-    color: #1a1a1a;
-    border-bottom: 2px solid #e5e7eb;
-    padding-bottom: 0.5rem;
-  }
-  
-  .what-i-do p,
-  .selected-links p,
-  .speaking p,
-  .skills p {
-    font-size: 1.1rem;
-  }
-  
-  ul {
-    margin: 1rem 0;
-    padding-left: 1.5rem;
-  }
-  
-  li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .social-links {
-    display: flex;
-    gap: 2rem;
-    margin-top: 1rem;
-  }
-  
-  .social-links a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border: 2px solid #2563eb;
-    border-radius: 6px;
-    transition: all 0.2s ease;
-  }
-  
-  .social-links a:hover {
-    background: #2563eb;
-    color: white;
-  }
-  
-  a {
-    color: #2563eb;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      padding: 1rem;
-    }
-    
-    .hero h1 {
-      font-size: 2rem;
-    }
-    
-    .tagline {
-      font-size: 1.1rem;
-    }
-    
-    .hero-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    
-    .hero-image img {
-      width: 120px;
-      height: 120px;
-    }
-    
-    .social-links {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
+  :global(body){margin:0;background:#fff}
+  .container{max-width:1040px;margin:auto;padding:32px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7;color:#222}
+  header,nav,footer{display:flex;flex-wrap:wrap;gap:24px;align-items:center}header{justify-content:space-between;border-bottom:1px solid #e5e7eb;padding-bottom:24px}.name{font-weight:700}
+  a{color:#2563eb;text-underline-offset:4px}h1,h2,h3{line-height:1.18;color:#1a1a1a}h1{font-size:clamp(2.2rem,5vw,3.6rem);letter-spacing:-.04em;max-width:880px;margin:24px 0}h2{font-size:2rem;margin:12px 0 24px}h3{font-size:1.35rem;margin:12px 0}
+  section{margin-top:64px}.hero{margin-top:48px}.identity{display:flex;justify-content:space-between;align-items:center;gap:20px}.identity img{border-radius:8px;object-fit:cover;flex-shrink:0}.eyebrow,.domain{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#666}.lede{font-size:1.3rem;color:#555;max-width:820px}.thesis{display:flex;flex-wrap:wrap;gap:20px;align-items:center;margin:32px 0;padding:20px 24px;background:#f5f7fb;border-left:3px solid #2563eb}.thesis strong{color:#2563eb}
+  .project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.project-grid article{padding:24px;border:1px solid #e5e7eb;border-radius:8px}.project-grid p{font-size:1rem}.project-grid .domain{font-size:.75rem}.project-grid a{display:inline-block;margin-top:8px}section>p{font-size:1.1rem;max-width:820px}.background{border-top:1px solid #e5e7eb;padding-top:40px}footer{margin-top:64px;border-top:1px solid #e5e7eb;padding-top:24px;font-size:.9rem}.skip{position:absolute;left:-10000px}.skip:focus{left:16px;top:8px;background:white}
+  @media(max-width:800px){.project-grid{grid-template-columns:1fr}.container{padding:24px 20px}.identity img{width:84px;height:84px}header{gap:16px}nav{gap:20px}.hero{margin-top:36px}section{margin-top:48px}.thesis{gap:12px;padding:16px}}
 </style>

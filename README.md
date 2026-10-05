@@ -87,3 +87,30 @@ This project uses the Node.js adapter for deployment. To deploy to different pla
 **Connect with me:**
 - [LinkedIn](https://www.linkedin.com/in/stepan-kukharskiy-25347342)
 - [GitHub](https://github.com/StepanKukharskiy)
+
+## AI Work editorial archive
+
+Articles live under `/ai-work`; the Excel-to-PowerPoint experiment is canonical at
+`https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation`. Skill ZIPs,
+examples and verification assets remain on Relay. The article has local copies
+of the actual three report previews, so its illustrations survive product renaming.
+
+The server counts eligible HTML GET requests with fixed anonymous event fields.
+`PERSONAL_WEBSITE_ANALYTICS=off` disables these counts. See `/ai-work/privacy`.
+Events are request totals, not unique visitors or linked conversions. Fixed v3
+campaign labels carry to Relay; legacy Relay campaigns remain unchanged.
+
+Build/check: `npm run check`, `npm run build`. Railway uses the existing Node
+adapter and `node build` start command. Medium is a separate distribution draft;
+its canonical URL must be set in the Medium editor before publication.
+
+## Personal thesis and navigation
+
+The homepage leads with: "I build systems that turn AI output into structured,
+editable work." Projects, AI Work and Teaching are separate personal sections.
+Relay, Spellshape / Live OBJ and Drawing Analysis Engine remain independent
+projects. Their shared concern is preserved editability, evidence and continuation.
+Project-to-project integrations are described as directions to test, not shipped
+features. Only verified public project links are listed. No course dates or new
+media accounts are invented. The personal article, hero assets and existing
+request-counter scope remain intact. Section pages share one layout component.
