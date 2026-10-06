@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import ActivityStrip from '$lib/components/ActivityStrip.svelte';
 </script>
 
 <svelte:head>
@@ -31,8 +32,9 @@
     <section class="ai-work"><p class="eyebrow">Experiments and field notes</p><h2>AI Work</h2><p>I'm testing recurring tasks with real inputs, saved outputs and explicit checks. Each article documents what worked, what preparation was needed and what remains unresolved.</p><p><a href={resolve('/ai-work/excel-to-powerpoint-automation')}>Excel to PowerPoint: updating a recurring report with AI →</a></p><p><a href={resolve('/ai-work')}>All experiments →</a></p></section>
     <section><p class="eyebrow">Sharing the method</p><h2>Teaching</h2><p>Lectures, workshops and webinars on computational design, AI workflows and spatial tools, drawing on the systems and experiments I build.</p><a href={resolve('/teaching')}>Teaching and workshops →</a></section>
     <section class="background"><h2>Background</h2><p>I've worked with parametric design since 2010 and co-founded <a href="https://salab.org/eng">SA lab</a>. My work connects architecture, computation and interactive 3D, with an emphasis on tools and artifacts that stay editable and buildable.</p><p>Architectural work has been published by <a href="https://www.archdaily.com/912669/flexse-sa-lab">ArchDaily</a>, <a href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/">Designboom</a>, <a href="https://archinect.com/salab/project/crane-design-showroom">Archinect</a> and <a href="https://architizer.com/projects/crane-design-showroom/">Architizer</a>.</p></section>
+    <ActivityStrip />
   </main>
-  <footer><a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a href="https://github.com/StepanKukharskiy">GitHub</a><a href={resolve('/ai-work/privacy')}>Website request privacy</a></footer>
+  <footer><a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a href="https://github.com/StepanKukharskiy">GitHub</a><a href={resolve('/ai-work/privacy')}>Privacy</a></footer>
 </div>
 <style>
   :global(body){margin:0;background:#fff}

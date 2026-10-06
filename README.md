@@ -22,7 +22,7 @@ This website presents my work as an architect, computational designer, and found
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js 24
 - npm, pnpm, or yarn
 
 ### Getting Started
@@ -77,6 +77,27 @@ src/
 ## Deployment
 
 This project uses the Node.js adapter for deployment. To deploy to different platforms, you may need to install additional [SvelteKit adapters](https://svelte.dev/docs/kit/adapters).
+
+### Cookie-free site activity
+
+The homepage displays today's estimated visitors, page views and countries, fetched once
+per page opening with no background polling. A first-party request on navigation records
+page views, including navigation between prerendered pages. DNT, GPC and common bots are skipped.
+Daily hashes deduplicate IP address + browser user-agent; raw values are never stored in
+the analytics database. Old hashes and daily secrets are removed on the next day's first
+request; aggregate daily totals persist. Days follow Europe/Moscow time.
+
+Railway needs Node.js 24, one service replica and a persistent volume mounted at `/data`.
+Set `ADDRESS_HEADER=x-real-ip` to use Railway's trusted client-IP header. Storage defaults
+to `$RAILWAY_VOLUME_MOUNT_PATH/analytics/activity.sqlite`; an explicit
+`PERSONAL_WEBSITE_ANALYTICS_DIR` overrides that location. Production without persistent
+storage hides the strip instead of reporting temporary counters. Development uses the
+git-ignored `.local-data/analytics` directory. `PERSONAL_WEBSITE_ANALYTICS=off` disables it.
+
+`GET /api/activity` returns public daily aggregates; same-origin `POST /api/activity`
+counts supported page paths and returns the updated summary. Country lookup runs locally
+using the bundled PDDL database documented in `data/geo/README.md`. Visitor and country
+counts are estimates; privacy details are at `/ai-work/privacy`.
 
 ## License
 

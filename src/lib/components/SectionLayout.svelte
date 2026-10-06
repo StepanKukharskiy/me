@@ -5,7 +5,7 @@
   <a class="skip" href="#main">Skip to content</a>
   <header><a class="author" href="/">Stepan Kukharskiy</a><nav aria-label="Main navigation"><a href="/projects">Projects</a><a href="/ai-work">AI Work</a><a href="/teaching">Teaching</a></nav></header>
   <main id="main">{@render children()}</main>
-  <footer><a href="/projects">Projects</a><a href="/ai-work">Experiments</a><a href="/ai-work/privacy">Request-count privacy</a><a href="/">About Stepan</a></footer>
+  <footer><a href="/projects">Projects</a><a href="/ai-work">Experiments</a><a href="/ai-work/privacy">Privacy</a><a href="/">About Stepan</a></footer>
 </div>
 <style>
   :global(body) { margin: 0; background: #fff; }
