@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { resolve } from '$app/paths';
+</script>
+
 <svelte:head>
   <title>Stepan Kukharskiy — AI Output into Structured, Editable Work</title>
   <meta name="description" content="I build systems that turn AI output into structured, editable work. Relay, Spellshape / Live OBJ, drawing analysis, practical experiments and teaching." />
@@ -8,7 +12,7 @@
 </svelte:head>
 <div class="container">
   <a class="skip" href="#main">Skip to content</a>
-  <header><a class="name" href="/">Stepan Kukharskiy</a><nav aria-label="Main navigation"><a href="/projects">Projects</a><a href="/ai-work">AI Work</a><a href="/teaching">Teaching</a></nav></header>
+  <header><a class="name" href={resolve('/')}>Stepan Kukharskiy</a><nav aria-label="Main navigation"><a href={resolve('/projects')}>Projects</a><a href={resolve('/ai-work')}>AI Work</a><a href={resolve('/teaching')}>Teaching</a></nav></header>
   <main id="main">
     <section class="hero">
       <div class="identity"><p class="eyebrow">Architect · computational designer · founder</p><img src="/Stepan_Kukharskiy.jpg" alt="Stepan Kukharskiy" width="112" height="112" /></div>
@@ -19,16 +23,16 @@
     <section class="projects">
       <p class="eyebrow">One thesis, different domains</p><h2>Projects</h2>
       <div class="project-grid">
-        <article><p class="domain">Routines → reusable work</p><h3>Relay</h3><p>Turn a messy routine into a Skill and job, with artifacts, evidence, checks and explicit exceptions. Keep the work ready to continue.</p><a href="/projects#relay">Explore Relay →</a></article>
-        <article><p class="domain">Intent → editable geometry</p><h3>Spellshape / Live OBJ</h3><p>Keep portable mesh geometry together with semantic and procedural metadata, so a scene can keep changing in tools that understand it.</p><a href="/projects#live-obj">Explore Live OBJ →</a></article>
-        <article><p class="domain">Drawing → traceable analysis</p><h3>Drawing Analysis Engine</h3><p>Keep drawing evidence, declared values, calculations and engineer approval separate. Preserve the source and explain unresolved geometry.</p><a href="/projects#drawing-engine">Explore the engine →</a></article>
+        <article><p class="domain">Routines → reusable work</p><h3>Relay</h3><p>Turn a messy routine into a Skill and job, with artifacts, evidence, checks and explicit exceptions. Keep the work ready to continue.</p><p>Select useful text in ChatGPT and turn it into a reusable Skill or saved work with the Chrome extension.</p><a href={resolve('/relay/chrome')}>Relay for Chrome →</a><br /><a href={resolve('/projects#relay')}>Explore Relay →</a></article>
+        <article><p class="domain">Intent → editable geometry</p><h3>Spellshape / Live OBJ</h3><p>Keep portable mesh geometry together with semantic and procedural metadata, so a scene can keep changing in tools that understand it.</p><a href={resolve('/projects#live-obj')}>Explore Live OBJ →</a></article>
+        <article><p class="domain">Drawing → traceable analysis</p><h3>Drawing Analysis Engine</h3><p>Keep drawing evidence, declared values, calculations and engineer approval separate. Preserve the source and explain unresolved geometry.</p><a href={resolve('/projects#drawing-engine')}>Explore the engine →</a></article>
       </div>
     </section>
-    <section class="ai-work"><p class="eyebrow">Experiments and field notes</p><h2>AI Work</h2><p>I'm testing recurring tasks with real inputs, saved outputs and explicit checks. Each article documents what worked, what preparation was needed and what remains unresolved.</p><p><a href="/ai-work/excel-to-powerpoint-automation">Excel to PowerPoint: updating a recurring report with AI →</a></p><p><a href="/ai-work">All experiments →</a></p></section>
-    <section><p class="eyebrow">Sharing the method</p><h2>Teaching</h2><p>Lectures, workshops and webinars on computational design, AI workflows and spatial tools, drawing on the systems and experiments I build.</p><a href="/teaching">Teaching and workshops →</a></section>
+    <section class="ai-work"><p class="eyebrow">Experiments and field notes</p><h2>AI Work</h2><p>I'm testing recurring tasks with real inputs, saved outputs and explicit checks. Each article documents what worked, what preparation was needed and what remains unresolved.</p><p><a href={resolve('/ai-work/excel-to-powerpoint-automation')}>Excel to PowerPoint: updating a recurring report with AI →</a></p><p><a href={resolve('/ai-work')}>All experiments →</a></p></section>
+    <section><p class="eyebrow">Sharing the method</p><h2>Teaching</h2><p>Lectures, workshops and webinars on computational design, AI workflows and spatial tools, drawing on the systems and experiments I build.</p><a href={resolve('/teaching')}>Teaching and workshops →</a></section>
     <section class="background"><h2>Background</h2><p>I've worked with parametric design since 2010 and co-founded <a href="https://salab.org/eng">SA lab</a>. My work connects architecture, computation and interactive 3D, with an emphasis on tools and artifacts that stay editable and buildable.</p><p>Architectural work has been published by <a href="https://www.archdaily.com/912669/flexse-sa-lab">ArchDaily</a>, <a href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/">Designboom</a>, <a href="https://archinect.com/salab/project/crane-design-showroom">Archinect</a> and <a href="https://architizer.com/projects/crane-design-showroom/">Architizer</a>.</p></section>
   </main>
-  <footer><a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a href="https://github.com/StepanKukharskiy">GitHub</a><a href="/ai-work/privacy">Website request privacy</a></footer>
+  <footer><a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a href="https://github.com/StepanKukharskiy">GitHub</a><a href={resolve('/ai-work/privacy')}>Website request privacy</a></footer>
 </div>
 <style>
   :global(body){margin:0;background:#fff}

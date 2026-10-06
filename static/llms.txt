@@ -7,12 +7,14 @@ Artifacts should preserve enough structure to be inspected, changed and continue
 
 ## Independent Projects
 - Relay: routines become portable Skills and jobs with artifacts, evidence, checks and exceptions. https://task-relay-website-production.up.railway.app
+- Relay for Chrome: select useful text in ChatGPT, choose Turn into Skill or Save work, review and send the prepared message, then download a portable Skill or work snapshot. Relay Desktop is optional. https://stepankukharskiy.com/relay/chrome
 - Spellshape / Live OBJ: standard OBJ geometry with #@ metadata for semantic/procedural editability in compatible tools. https://spellshape.com ; https://github.com/StepanKukharskiy/live-obj
 - Drawing Analysis Engine: PDF drawing evidence, declared values, calculations and engineer approval remain separate; source/audit PDF, SQLite state and hashed results preserved. https://github.com/StepanKukharskiy/drawing-analysis-engine
 - SA lab: computational architecture and digital fabrication. https://salab.org/eng
 
 ## Personal Archive
 - Projects: https://stepankukharskiy.com/projects
+- Chrome extension: https://chromewebstore.google.com/detail/task-relay/alicbjedflapdighdmadgbopahfhbgbd
 - AI Work: https://stepankukharskiy.com/ai-work
 - Excel-to-PowerPoint experiment: https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation
 - Teaching: https://stepankukharskiy.com/teaching
