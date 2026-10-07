@@ -1,6 +1,36 @@
+<script lang="ts">
+	import FollowExperiments from '$lib/components/FollowExperiments.svelte';
+	import { resolve } from '$app/paths';
+</script>
 
-<svelte:head><title>AI Work: Experiments in Automating Real Tasks | Stepan Kukharskiy</title><meta name="description" content="Practical experiments in automating recurring work with AI. Real inputs, checked outputs, reusable Skills and honest limits." /><link rel="canonical" href="https://stepankukharskiy.com/ai-work" /></svelte:head>
-<p class="eyebrow">Experiments and field notes</p><h1>AI work</h1>
-<p class="lede">I'm testing how AI can automate real, recurring tasks — and where the result still needs human judgment.</p>
-<p>Each experiment documents the inputs, procedure, checked output and limitations. I am building an archive of recurring tasks tested as structured, reusable work. The articles live here; executable Skills and examples live on Relay.</p>
-<section><p class="eyebrow">Experiment 01 · 5 October 2026</p><h2><a href="/ai-work/excel-to-powerpoint-automation">Excel to PowerPoint Automation: Updating a Recurring Report with AI</a></h2><p>A January-to-February report update using real retail transactions: six slides, editable charts, 31 checked numeric targets and one explanation left for human review.</p><a href="/ai-work/excel-to-powerpoint-automation">Read the experiment →</a></section>
+<svelte:head
+	><title>AI Work: Experiments in Automating Real Tasks | Stepan Kukharskiy</title><meta
+		name="description"
+		content="Practical experiments in automating recurring work with AI. Real inputs, checked outputs, reusable Skills and honest limits."
+	/><link rel="canonical" href="https://stepankukharskiy.com/ai-work" /></svelte:head
+>
+<p class="eyebrow">Experiments and field notes</p>
+<h1>AI work</h1>
+<p class="lede">
+	I'm testing how AI can automate real, recurring tasks — and where the result still needs human
+	judgment.
+</p>
+<p>
+	Each experiment documents the inputs, procedure, checked output and limitations. I am building an
+	archive of recurring tasks tested as structured, reusable work. The articles live here; executable
+	Skills and examples live on Relay.
+</p>
+<section>
+	<p class="eyebrow">Experiment 01 · 5 October 2026</p>
+	<h2>
+		<a href={resolve('/ai-work/excel-to-powerpoint-automation')}
+			>Excel to PowerPoint Automation: Updating a Recurring Report with AI</a
+		>
+	</h2>
+	<p>
+		A January-to-February report update using real retail transactions: six slides, editable charts,
+		31 checked numeric targets and one explanation left for human review.
+	</p>
+	<a href={resolve('/ai-work/excel-to-powerpoint-automation')}>Read the experiment →</a>
+</section>
+<FollowExperiments />

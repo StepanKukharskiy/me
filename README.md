@@ -1,15 +1,17 @@
 # Stepan Kukharskiy - Personal Website
 
-A modern, responsive personal portfolio website built with SvelteKit, showcasing work at the intersection of artificial intelligence, procedural geometry, and spatial design.
+A SvelteKit website for Stepan Kukharskiy's tested AI Work experiments, reusable Skills, independent projects and teaching.
 
 ## About
 
-This website presents my work as an architect, computational designer, and founder. It highlights:
+The shared thesis is: "I build systems that turn AI output into structured, editable work." The homepage leads into the practical question: which real professional routines can AI do, and how can successful procedures become reusable Skills?
 
-- **Spellshape** - AI agent for natural language to parametric 3D conversion
-- **SA lab** - Algorithmic architecture and digital fabrication
-- Technical stack across spatial computing, AI/ML, and web development
-- Published architectural projects and open-source contributions
+- **AI Work** — original experiments with actual inputs, checked outputs, explicit limits and downloadable Skills. One experiment is currently published; the series aims for 100 tested jobs.
+- **Relay** — reusable Skills, retained work and a Chrome extension for selected ChatGPT text.
+- **Spellshape / Live OBJ and Drawing Analysis Engine** — independent projects around editable geometry and traceable evidence.
+- **Teaching and background** — computational design workshops, SA lab and published architectural work.
+
+The homepage shows the actual checked Excel-to-PowerPoint output before the project cards. A shared LinkedIn follow prompt appears on the homepage, AI Work archive and experiment article. Article bylines and visible publication/update dates agree with their structured data; update dates should reflect real editorial changes.
 
 ## Tech Stack
 
@@ -58,7 +60,9 @@ npm run preview
 ```
 src/
 ├── routes/
-│   ├── +page.svelte      # Main portfolio page
+│   ├── +page.svelte      # Identity, experiment evidence and projects
+│   ├── ai-work/          # Canonical experiment articles
+│   ├── relay/chrome/     # Chrome extension explanation and install link
 │   └── +layout.svelte    # Root layout
 ├── lib/
 │   ├── assets/           # Static assets
@@ -161,3 +165,10 @@ check discovery; public search queries cannot establish complete index coverage.
 No webmaster accounts have been created or sitemap submissions made by this code.
 Maintain the sitemap as canonical pages are added. Search eligibility does not
 guarantee ranking or inclusion in an AI answer.
+
+## Distribution measurement
+
+Use [the monthly visibility checklist](docs/distribution-measurement.md) and its CSV
+templates to record search performance, published experiments, Skills, external
+mentions and a fixed set of AI citation tests. Blank values mean unmeasured, not zero.
+The templates are manual records; they do not schedule work or fetch account data.

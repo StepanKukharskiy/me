@@ -9,6 +9,8 @@ Stepan Kukharskiy is an architect, computational designer, founder and co-founde
 
 His working thesis is: "I build systems that turn AI output into structured, editable work." A result should preserve enough structure to be inspected, changed and continued: geometry with editable intent, analysis tied to evidence, and routines with retained files and checks.
 
+His current AI Work series tests which real professional routines AI can do and turns successful procedures into reusable Skills. The goal is 100 tested jobs; one experiment is currently published. Follow his LinkedIn profile for new experiments.
+
 Architectural work has been published by ArchDaily, Designboom, Archinect and Architizer. The homepage links to specific examples of those publications.
 
 - Homepage: https://stepankukharskiy.com/
@@ -78,7 +80,7 @@ Archive: https://stepankukharskiy.com/ai-work
 
 ### Experiment 01: Excel to PowerPoint Automation
 
-Published 5 October 2026 by Stepan Kukharskiy.
+Published 5 October 2026 by Stepan Kukharskiy. Article updated 7 October 2026.
 Canonical article: https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation
 
 The task was to update a January PowerPoint report from February Excel data while preserving a prepared six-slide template and editable charts. Inputs included January and February workbooks, the January template, a source policy and an explicit map from workbook cells to slide targets.
