@@ -1,5 +1,6 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.png';
+	import favicon16 from '$lib/assets/favicon-16.png';
 	import { afterNavigate } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import { activity, type ActivitySummary } from '$lib/activity';
@@ -33,7 +34,8 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+	<link rel="icon" type="image/png" sizes="32x32" href={favicon} />
 </svelte:head>
 
 {@render children()}
