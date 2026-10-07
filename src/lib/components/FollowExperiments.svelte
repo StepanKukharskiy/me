@@ -5,7 +5,7 @@
 		I'm working toward 100 tested AI jobs: real inputs, checked results and reusable Skills. I share
 		the experiments, what worked and what still needs human judgment on LinkedIn.
 	</p>
-	<a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342"> Follow Stepan on LinkedIn → </a>
+	<a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342"> Follow me on LinkedIn → </a>
 </aside>
 
 <style>
