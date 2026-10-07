@@ -1,15 +1,26 @@
-# allow crawling everything by default
+# Public pages are crawlable. The activity API is not editorial content.
 User-agent: *
-Disallow:
-
-# Allow AI crawlers
-User-agent: GPTBot
 Allow: /
+Disallow: /api/
 
-User-agent: CCBot
-Allow: /
-
+# Search and user-directed retrieval for AI assistants and search engines.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Bingbot
 User-agent: PerplexityBot
 Allow: /
+Disallow: /api/
+
+# Preserve the existing permission for model-training crawlers.
+# These permissions are separate from appearing in search answers.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: CCBot
+Allow: /
+Disallow: /api/
 
 Sitemap: https://stepankukharskiy.com/sitemap.xml

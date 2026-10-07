@@ -17,6 +17,21 @@
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://stepankukharskiy.com/relay/chrome" />
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "SoftwareApplication",
+			"@id": "https://stepankukharskiy.com/relay/chrome#extension",
+			"name": "Task Relay for Chrome",
+			"url": "https://stepankukharskiy.com/relay/chrome",
+			"description": "A free Chrome extension that turns selected text in ChatGPT into reusable Skills or portable saved work for Codex or another AI chat. Relay Desktop is optional.",
+			"applicationCategory": "BrowserApplication",
+			"operatingSystem": "Chrome",
+			"browserRequirements": "Google Chrome",
+			"downloadUrl": "https://chromewebstore.google.com/detail/task-relay/alicbjedflapdighdmadgbopahfhbgbd",
+			"author": { "@id": "https://stepankukharskiy.com/#person" }
+		}
+	</script>
 </svelte:head>
 
 <p class="eyebrow">Relay · Free Chrome extension</p>

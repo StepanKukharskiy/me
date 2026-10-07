@@ -135,3 +135,29 @@ Project-to-project integrations are described as directions to test, not shipped
 features. Only verified public project links are listed. No course dates or new
 media accounts are invented. The personal article, hero assets and existing
 request-counter scope remain intact. Section pages share one layout component.
+
+## Search and AI discovery
+
+Public content is delivered as readable HTML, with canonical URLs in `static/sitemap.xml`.
+`static/robots.txt` explicitly permits OpenAI and Claude search/user retrieval,
+Google, Bing and Perplexity while excluding `/api/` from crawling. The existing
+permission for training crawlers is preserved; search visibility and training
+permission are separate controls. Cloudflare must also allow legitimate crawlers;
+robots.txt alone cannot override an edge challenge or firewall block.
+
+`/llms.txt` is a concise linked index, and `/llms-full.txt` expands the public site's
+project descriptions, experiment evidence and limitations. The shared HTML head
+links to the guide with `rel="describedby"`. These files follow an emerging proposal,
+not a guarantee that every assistant reads them or cites the site. Keep both texts
+aligned with the visible pages when updating project claims or publishing articles.
+
+JSON-LD identifies the person and website, with separate organization identities;
+the Chrome page describes its SoftwareApplication and the article its BlogPosting.
+Do not add invented ratings, credentials, launch dates or unsupported product claims.
+
+After deploying, submit `https://stepankukharskiy.com/sitemap.xml` in verified Google
+Search Console and Bing Webmaster Tools properties. Use their indexing reports to
+check discovery; public search queries cannot establish complete index coverage.
+No webmaster accounts have been created or sitemap submissions made by this code.
+Maintain the sitemap as canonical pages are added. Search eligibility does not
+guarantee ranking or inclusion in an AI answer.

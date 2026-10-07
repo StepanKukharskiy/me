@@ -4,34 +4,65 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
-		
-		<!-- JSON-LD Structured Data for AI crawlers -->
+		<link
+			rel="describedby"
+			href="/llms.txt"
+			type="text/plain"
+			title="Site overview for AI readers"
+		/>
+
+		<!-- Stable identities shared by the site's page-specific structured data. -->
 		<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Person",
-		  "name": "Stepan Kukharskiy",
-		  "jobTitle": "Founder and Computational Designer",
-		  "url": "https://stepankukharskiy.com",
-		  "sameAs": [
-		    "https://www.linkedin.com/in/stepan-kukharskiy-25347342",
-		    "https://github.com/StepanKukharskiy",
-		    "https://salab.org/eng"
-		  ],
-		  "worksFor": [
-		    {
-		      "@type": "Organization",
-		      "name": "Spellshape",
-		      "roleName": "Founder"
-		    },
-		    {
-		      "@type": "Organization",
-		      "name": "SA lab",
-		      "roleName": "Co-founder"
-		    }
-		  ],
-		  "knowsAbout": ["Parametric Design", "Artificial Intelligence", "Computational Geometry", "World Models", "Grasshopper", "Python"]
-		}
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"@id": "https://stepankukharskiy.com/#website",
+						"url": "https://stepankukharskiy.com/",
+						"name": "Stepan Kukharskiy",
+						"inLanguage": "en",
+						"publisher": { "@id": "https://stepankukharskiy.com/#person" }
+					},
+					{
+						"@type": "Person",
+						"@id": "https://stepankukharskiy.com/#person",
+						"name": "Stepan Kukharskiy",
+						"jobTitle": "Architect, Computational Designer and Founder",
+						"description": "I build systems that turn AI output into structured, editable work.",
+						"url": "https://stepankukharskiy.com/",
+						"image": "https://stepankukharskiy.com/Stepan_Kukharskiy.jpg",
+						"sameAs": [
+							"https://www.linkedin.com/in/stepan-kukharskiy-25347342",
+							"https://github.com/StepanKukharskiy"
+						],
+						"worksFor": [
+							{ "@id": "https://spellshape.com/#organization" },
+							{ "@id": "https://salab.org/eng#organization" }
+						],
+						"knowsAbout": [
+							"Parametric Design",
+							"Artificial Intelligence",
+							"Computational Geometry",
+							"AI Workflows"
+						]
+					},
+					{
+						"@type": "Organization",
+						"@id": "https://spellshape.com/#organization",
+						"name": "Spellshape",
+						"url": "https://spellshape.com",
+						"founder": { "@id": "https://stepankukharskiy.com/#person" }
+					},
+					{
+						"@type": "Organization",
+						"@id": "https://salab.org/eng#organization",
+						"name": "SA lab",
+						"url": "https://salab.org/eng",
+						"founder": { "@id": "https://stepankukharskiy.com/#person" }
+					}
+				]
+			}
 		</script>
 	</head>
 	<body data-sveltekit-preload-data="hover">

@@ -11,6 +11,22 @@
   <meta property="og:url" content="https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation" />
   <meta property="og:description" content="A real January-to-February report test, with editable charts, verified numbers and a reusable Skill." />
   <meta property="og:image" content="https://stepankukharskiy.com/ai-work/assets/excel-to-powerpoint-hero-v1.png" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation#article",
+      "url": "https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation",
+      "headline": "Excel to PowerPoint Automation: Updating a Recurring Report with AI",
+      "description": "A recurring report update using a prepared six-slide template, real transactions, editable charts, checked numbers and explicit limitations.",
+      "datePublished": "2026-10-05",
+      "inLanguage": "en",
+      "image": "https://stepankukharskiy.com/ai-work/assets/excel-to-powerpoint-hero-v1.png",
+      "author": { "@type": "Person", "@id": "https://stepankukharskiy.com/#person", "name": "Stepan Kukharskiy", "url": "https://stepankukharskiy.com/" },
+      "isPartOf": { "@id": "https://stepankukharskiy.com/#website" },
+      "mainEntityOfPage": "https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation"
+    }
+  </script>
 </svelte:head>
 <article><p class="eyebrow">AI work · Experiment 01 · 5 October 2026</p><h1>Excel to PowerPoint Automation: Updating a Recurring Report with AI</h1><p class="lede">Update an existing monthly PowerPoint from new Excel data, preserve the approved template and editable charts, and check the saved result. Unsupported commentary stays marked for human review.</p>
 <figure><img class="hero-illustration" src="/ai-work/assets/excel-to-powerpoint-hero-v1.png" alt="Editorial illustration of spreadsheet cells flowing into an editable presentation report" /><figcaption>Editorial illustration. The actual report screenshots and saved-file checks appear below.</figcaption></figure>

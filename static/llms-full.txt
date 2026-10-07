@@ -1,0 +1,119 @@
+# Stepan Kukharskiy — expanded site overview
+
+Canonical website: https://stepankukharskiy.com/
+This is a text overview of the public website. Linked pages contain the detailed articles and current project information.
+
+## Person and working thesis
+
+Stepan Kukharskiy is an architect, computational designer, founder and co-founder of SA lab. He has worked with parametric design since 2010. His work connects architecture, computation and interactive 3D, with an emphasis on tools and artifacts that stay editable and buildable.
+
+His working thesis is: "I build systems that turn AI output into structured, editable work." A result should preserve enough structure to be inspected, changed and continued: geometry with editable intent, analysis tied to evidence, and routines with retained files and checks.
+
+Architectural work has been published by ArchDaily, Designboom, Archinect and Architizer. The homepage links to specific examples of those publications.
+
+- Homepage: https://stepankukharskiy.com/
+- LinkedIn: https://www.linkedin.com/in/stepan-kukharskiy-25347342
+- GitHub: https://github.com/StepanKukharskiy
+- SA lab: https://salab.org/eng
+
+## Independent projects
+
+### Relay
+
+Relay turns useful procedures into work an agent can execute and continue. A Skill contains reusable instructions. A job retains selected files, artifacts, evidence, assigned checks and explicit exceptions. Public Skills are portable; Relay adds coordination and continuation around them.
+
+- Personal project description: https://stepankukharskiy.com/projects#relay
+- Relay website: https://task-relay-website-production.up.railway.app
+- Downloadable Skills: https://task-relay-website-production.up.railway.app/skills
+- Source code: https://github.com/StepanKukharskiy/task-relay
+
+### Relay for Chrome
+
+Task Relay is a free Chrome extension for turning useful selected text from an AI conversation into a reusable Skill or saved work.
+
+The direct handoff flow supports ordinary ChatGPT conversations:
+
+1. Select useful text in ChatGPT and open Task Relay from Chrome's toolbar.
+2. Choose "Turn into Skill" to keep a reusable method, or "Save work" to keep the state of the current task.
+3. Review the message Relay prepares, then send it yourself in ChatGPT.
+4. Download the result when the response is complete. Supply the saved files in Codex or another AI chat to reuse the method or continue the task.
+
+A Skill exports as SKILL.md or a Skill ZIP with supporting files. Saved work exports as a portable .relay.md snapshot containing the objective, findings, evidence, proposed decisions, open questions and next actions.
+
+Relay Desktop is optional. Saving a snapshot does not create or run a Desktop job. The portable flow does not require a Relay account, Relay Desktop or a separate model setup. Other AI sites use manual copy and paste rather than the direct ChatGPT message handoff.
+
+- Explanation: https://stepankukharskiy.com/relay/chrome
+- Chrome Web Store: https://chromewebstore.google.com/detail/task-relay/alicbjedflapdighdmadgbopahfhbgbd
+- Support: https://task-relay-website-production.up.railway.app/chrome/support
+- Extension privacy: https://task-relay-website-production.up.railway.app/chrome/privacy
+
+### Spellshape / Live OBJ
+
+Spellshape is an AI-native authoring environment built around Live OBJ. The artifact combines standard OBJ mesh geometry with #@ metadata describing semantic parts, parameters and procedural intent.
+
+Ordinary OBJ readers can use the mesh geometry. Tools that understand the metadata can continue editing the scene. Metadata-driven editability depends on the capabilities of the consuming tool; it is not a claim that every OBJ reader provides procedural editing.
+
+- Personal project description: https://stepankukharskiy.com/projects#live-obj
+- Spellshape website: https://spellshape.com
+- Live OBJ source and format: https://github.com/StepanKukharskiy/live-obj
+
+### Drawing Analysis Engine
+
+A callable PDF drawing-understanding engine that keeps drawing evidence, declared schedule values, calculated results and engineer approval separate. A saved project preserves the source PDF, marked audit PDF, SQLite state and a hashed results index. Unresolved geometry and unsupported exports retain explicit reasons.
+
+Running the engine or exporting geometry does not grant engineer approval.
+
+- Personal project description: https://stepankukharskiy.com/projects#drawing-engine
+- Source and documentation: https://github.com/StepanKukharskiy/drawing-analysis-engine
+
+### Integration scope
+
+Skills can expose a callable engine or script to an agent, creating possible ways to combine drawing analysis, editable 3D, reports and downstream jobs. These are directions to test. The website does not claim Relay already ships an end-to-end drawing or Live OBJ workflow.
+
+## AI Work: practical experiments
+
+The AI Work archive documents recurring tasks tested with real inputs, saved outputs and explicit checks. Articles explain what worked, what preparation was needed and what remains unresolved. Articles are canonical on the personal website; executable Skills and examples live on Relay.
+
+Archive: https://stepankukharskiy.com/ai-work
+
+### Experiment 01: Excel to PowerPoint Automation
+
+Published 5 October 2026 by Stepan Kukharskiy.
+Canonical article: https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation
+
+The task was to update a January PowerPoint report from February Excel data while preserving a prepared six-slide template and editable charts. Inputs included January and February workbooks, the January template, a source policy and an explicit map from workbook cells to slide targets.
+
+The experiment used historical transactions from Daqing Chen's UCI Online Retail dataset, CC BY 4.0, selecting December 2010 through February 2011. The article explains the declared gross-product-sales calculation policy; it is not an audited revenue definition supplied by UCI.
+
+Independent saved-file checks found:
+
+- 31 mapped numeric targets matched their sources.
+- Three editable chart datasets had matching caches and embedded workbooks.
+- Eight reporting-period labels were updated.
+- No saved layout/style differences were detected under the declared comparison.
+- One missing cause explanation remained marked for human input.
+
+The supplied v1 adapter also ran directly in Codex desktop with its bundled spreadsheet and presentation tools, without Relay, and the separately saved output passed the same checks. Automatic Skill discovery, a CLI without document tools, Claude and OpenClaw were not verified for this adapter.
+
+All six slides were inspected in Keynote. Keynote changed chart number formatting and thin table borders and briefly showed a missing-font warning. PowerPoint itself was not tested. The charts are editable snapshots without live workbook links.
+
+This is a bounded worked example requiring template and mapping preparation. It does not establish arbitrary-template reliability, customer adoption or a measured time saving.
+
+- Skill and worked example: https://task-relay-website-production.up.railway.app/skills/excel-to-powerpoint
+- Public verification summary: https://task-relay-website-production.up.railway.app/skills/assets/excel-to-powerpoint-v2-proof.json
+- Dataset attribution: https://doi.org/10.24432/C5BW33
+
+## Teaching and speaking
+
+Stepan gives lectures, webinars and workshops on computational design, AI workflows and spatial tools, including work with DesignMorphine and DigitalFUTURES.
+
+Topics include parametric/procedural design, defining inputs and checking AI outputs, making procedures reusable, and moving between models, interfaces and buildable work.
+
+- Teaching: https://stepankukharskiy.com/teaching
+- Workshop, lecture and collaboration contact: https://www.linkedin.com/in/stepan-kukharskiy-25347342
+
+## Website privacy
+
+The website displays cookie-free daily visitor estimates, page views and approximate country counts. Its privacy page explains the daily hashes, country lookup, retention and opt-outs. Relay's websites and extension have their own privacy information.
+
+Website privacy: https://stepankukharskiy.com/ai-work/privacy
