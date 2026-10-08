@@ -1,6 +1,6 @@
 <aside class="follow-experiments" aria-label="Follow AI Work">
-	<p class="eyebrow">100 real AI jobs</p>
-	<h2>Follow the next experiment.</h2>
+	<p class="eyebrow">Experiments and field notes</p>
+	<h2>Follow the AI Work experiments.</h2>
 	<p>
 		I'm working toward 100 tested AI jobs: real inputs, checked results and reusable Skills. I share
 		the experiments, what worked and what still needs human judgment on LinkedIn.

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import ActivityStrip from '$lib/components/ActivityStrip.svelte';
+	import ProjectPreview from '$lib/components/ProjectPreview.svelte';
 	import FollowExperiments from '$lib/components/FollowExperiments.svelte';
 </script>
 
@@ -43,23 +43,13 @@
 			</div>
 			<h1>I build systems that turn AI output into structured, editable work.</h1>
 			<p class="lede">
-				I'm testing which real professional routines AI can do, turning the successful ones into
-				reusable Skills.
+				I test real professional routines with AI and turn successful ones into reusable Skills.
 			</p>
 			<p><a class="primary-link" href={resolve('/ai-work')}>See the experiments →</a></p>
-			<p class="context">
-				The result should carry enough structure to be inspected, changed and continued: geometry
-				with editable intent, analysis tied to evidence, and routines with retained files and
-				checks.
-			</p>
 		</section>
 		<section class="ai-work" aria-labelledby="ai-work-title">
-			<p class="eyebrow">Experiments and field notes</p>
 			<h2 id="ai-work-title">AI Work</h2>
-			<p>
-				Real inputs, saved outputs and explicit checks. Each experiment documents what worked, what
-				preparation was needed and what remains unresolved.
-			</p>
+			<p>Real tasks, checked results and reusable Skills.</p>
 			<article class="experiment-proof">
 				<div>
 					<p class="eyebrow">Experiment 01 · 5 October 2026</p>
@@ -105,78 +95,59 @@
 			<h2>Projects</h2>
 			<div class="project-grid">
 				<article>
-					<p class="domain">Routines → reusable work</p>
-					<h3>Relay</h3>
+					<div class="project-copy">
+						<p class="domain">Routines → reusable work</p>
+						<h3>Relay</h3>
+						<p>
+							Select useful text in ChatGPT and turn it into a reusable Skill or saved work with the
+							Chrome extension.
+						</p>
+						<a href={resolve('/relay/chrome')}>Relay for Chrome →</a><br />
+						<a href={resolve('/projects#relay')}>Explore Relay →</a>
+					</div>
 					<figure class="project-visual">
-						<a href={resolve('/relay/chrome')} aria-label="See Relay’s Chrome extension in action">
-							<img
-								src="/relay/assets/relay-chrome-selected-text.png"
-								alt="Selected text in ChatGPT beside Task Relay’s Turn into Skill and Save work buttons."
-								width="1589"
-								height="990"
-								loading="lazy"
-								decoding="async"
-							/>
-						</a>
-						<figcaption>Select text → Turn into Skill.</figcaption>
+						<a href={resolve('/relay/chrome')} aria-label="See Relay’s Chrome extension in action"
+							><ProjectPreview project="relay" /></a
+						>
+						<figcaption>Real selected text and the extension’s Skill action.</figcaption>
 					</figure>
-					<p>
-						Select useful text in ChatGPT and turn it into a reusable Skill or saved work with the
-						Chrome extension.
-					</p>
-					<a href={resolve('/relay/chrome')}>Relay for Chrome →</a><br /><a
-						href={resolve('/projects#relay')}>Explore Relay →</a
-					>
 				</article>
 				<article>
-					<p class="domain">Intent → editable geometry</p>
-					<h3>Spellshape / Live OBJ</h3>
+					<div class="project-copy">
+						<p class="domain">Intent → editable geometry</p>
+						<h3>Spellshape / Live OBJ</h3>
+						<p>
+							Keep portable mesh geometry together with semantic and procedural metadata, so a scene
+							can keep changing in tools that understand it.
+						</p>
+						<a href={resolve('/projects#live-obj')}>Explore Live OBJ →</a>
+					</div>
 					<figure class="project-visual">
 						<a
 							href={resolve('/projects#live-obj')}
 							aria-label="See Spellshape’s editable geometry example"
+							><ProjectPreview project="spellshape" /></a
 						>
-							<img
-								src="/spellshape/assets/spellshape-live-obj-controls.jpg"
-								alt="A faceted tower and plaza in Rhino beside named Spellshape geometry controls in Grasshopper."
-								width="1280"
-								height="720"
-								loading="lazy"
-								decoding="async"
-							/>
-						</a>
 						<figcaption>3D geometry → named, editable controls.</figcaption>
 					</figure>
-					<p>
-						Keep portable mesh geometry together with semantic and procedural metadata, so a scene
-						can keep changing in tools that understand it.
-					</p>
-					<a href={resolve('/projects#live-obj')}>Explore Live OBJ →</a>
 				</article>
 				<article>
-					<p class="domain">Drawing → traceable analysis</p>
-					<h3>Drawing Analysis Engine</h3>
-					<figure class="project-visual drawing-visual">
+					<div class="project-copy">
+						<p class="domain">Drawing → traceable analysis</p>
+						<h3>Drawing Analysis Engine</h3>
+						<p>
+							Keep drawing evidence, declared values, calculations and engineer approval separate.
+							Preserve the source and explain unresolved geometry.
+						</p>
+						<a href={resolve('/projects#drawing-engine')}>Explore the engine →</a>
+					</div>
+					<figure class="project-visual">
 						<a
 							href={resolve('/projects#drawing-engine')}
-							aria-label="See the drawing-analysis example"
+							aria-label="See the drawing-analysis example"><ProjectPreview project="drawing" /></a
 						>
-							<img
-								src="/drawing-analysis/assets/annotated-section.png"
-								alt="Foundation section from the audit, with native geometry marked green, supporting dimensions blue and unresolved shapes orange."
-								width="780"
-								height="420"
-								loading="lazy"
-								decoding="async"
-							/>
-						</a>
 						<figcaption>PDF → annotated evidence. Unresolved shapes stay visible.</figcaption>
 					</figure>
-					<p>
-						Keep drawing evidence, declared values, calculations and engineer approval separate.
-						Preserve the source and explain unresolved geometry.
-					</p>
-					<a href={resolve('/projects#drawing-engine')}>Explore the engine →</a>
 				</article>
 			</div>
 		</section>
@@ -304,12 +275,12 @@
 				<a href="https://architizer.com/projects/crane-design-showroom/">Architizer</a>.
 			</p>
 		</section>
-		<ActivityStrip />
 	</main>
 	<footer>
 		<a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a
 			href="https://github.com/StepanKukharskiy">GitHub</a
 		><a href={resolve('/ai-work/privacy')}>Privacy</a>
+		<a href={resolve('/site-activity')}>Site activity</a>
 	</footer>
 </div>
 
@@ -353,10 +324,10 @@
 		color: #1a1a1a;
 	}
 	h1 {
-		font-size: clamp(2.2rem, 5vw, 3.6rem);
+		font-size: clamp(2rem, 4.5vw, 3rem);
 		letter-spacing: -0.04em;
 		max-width: 880px;
-		margin: 24px 0;
+		margin: 16px 0;
 	}
 	h2 {
 		font-size: 2rem;
@@ -370,7 +341,7 @@
 		margin-top: 64px;
 	}
 	.hero {
-		margin-top: 48px;
+		margin-top: 24px;
 	}
 	.identity {
 		display: flex;
@@ -379,6 +350,8 @@
 		gap: 20px;
 	}
 	.identity img {
+		width: 64px;
+		height: 64px;
 		border-radius: 8px;
 		object-fit: cover;
 		flex-shrink: 0;
@@ -391,21 +364,26 @@
 		color: #666;
 	}
 	.lede {
-		font-size: 1.3rem;
+		font-size: 1.15rem;
 		color: #555;
 		max-width: 820px;
 	}
 	.primary-link {
 		display: inline-block;
-		padding: 12px 20px;
+		padding: 10px 16px;
 		border-radius: 6px;
 		background: #2563eb;
 		color: #fff;
 		font-weight: 600;
 	}
-	.hero .context {
-		color: #666;
-		font-size: 1rem;
+	.ai-work {
+		margin-top: 28px;
+	}
+	.ai-work > h2 {
+		margin-bottom: 16px;
+	}
+	.ai-work > p:first-of-type {
+		margin: 0 0 20px;
 	}
 	.experiment-proof {
 		display: grid;
@@ -452,10 +430,14 @@
 	}
 	.project-grid {
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-columns: 1fr;
 		gap: 24px;
 	}
 	.project-grid article {
+		display: grid;
+		grid-template-columns: 1fr 1.2fr;
+		align-items: center;
+		gap: 32px;
 		padding: 24px;
 		border: 1px solid #e5e7eb;
 		border-radius: 8px;
@@ -467,29 +449,21 @@
 		font-size: 0.75rem;
 	}
 	.project-visual {
-		margin: 20px 0;
-	}
-	.project-visual img {
-		display: block;
-		width: 100%;
-		height: auto;
-		border: 1px solid #e5e7eb;
-		border-radius: 6px;
-		box-sizing: border-box;
+		min-width: 0;
+		margin: 0;
 	}
 	.project-visual figcaption {
 		margin-top: 10px;
 		font-size: 0.85rem;
 		color: #666;
 	}
-	.drawing-visual img {
-		aspect-ratio: 1589 / 990;
-		object-fit: contain;
-		background: #f7fafc;
-	}
-	.project-grid a {
+	.project-copy a {
 		display: inline-block;
 		margin-top: 8px;
+	}
+	.project-visual > a {
+		display: block;
+		text-decoration: none;
 	}
 	section > p {
 		font-size: 1.1rem;
@@ -568,10 +542,17 @@
 	}
 	@media (max-width: 800px) {
 		.project-grid,
+		.project-grid article,
 		.experience-grid,
 		.architecture-gallery,
 		.experiment-proof {
 			grid-template-columns: 1fr;
+		}
+		.experiment-proof figure {
+			grid-row: 1;
+		}
+		.project-grid article {
+			gap: 24px;
 		}
 		.experiment-proof {
 			padding: 20px;
@@ -581,8 +562,8 @@
 			padding: 24px 20px;
 		}
 		.identity img {
-			width: 84px;
-			height: 84px;
+			width: 48px;
+			height: 48px;
 		}
 		header {
 			gap: 16px;
@@ -591,7 +572,7 @@
 			gap: 20px;
 		}
 		.hero {
-			margin-top: 36px;
+			margin-top: 24px;
 		}
 		section {
 			margin-top: 48px;

@@ -11,12 +11,13 @@
 		const requestId = ++latestRequest;
 		const privacy = navigator as Navigator & { globalPrivacyControl?: boolean };
 		const optedOut = navigator.doNotTrack === '1' || privacy.globalPrivacyControl === true;
+		const readOnly = optedOut || to.url.pathname === '/site-activity';
 		try {
 			const response = await fetch(resolve('/api/activity'), {
-				method: optedOut ? 'GET' : 'POST',
+				method: readOnly ? 'GET' : 'POST',
 				credentials: 'omit',
 				cache: 'no-store',
-				...(optedOut
+				...(readOnly
 					? {}
 					: {
 							headers: { 'Content-Type': 'application/json' },
