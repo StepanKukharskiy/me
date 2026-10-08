@@ -20,11 +20,11 @@
 	are retained. Days follow Moscow time.
 </p>
 <p>
-	The homepage publicly shows today's estimated visitors, page views, number of known countries and
-	the three countries with the most visitors. It loads these totals when the page opens. No
-	individual visitor records are public. People sharing an IP address and browser type may be
-	counted together; switching networks or browsers may count someone more than once. Country lookup
-	is approximate, especially with VPNs, and some countries cannot be identified.
+	The separate Site activity page publicly shows today's estimated visitors, page views, number of
+	known countries and the three countries with the most visitors. It loads these totals when the
+	page opens. No individual visitor records are public. People sharing an IP address and browser
+	type may be counted together; switching networks or browsers may count someone more than once.
+	Country lookup is approximate, especially with VPNs, and some countries cannot be identified.
 </p>
 <p>
 	Do Not Track and Global Privacy Control opt-outs, common bots and prefetch requests are excluded.
