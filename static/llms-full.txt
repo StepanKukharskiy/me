@@ -7,11 +7,22 @@ This is a text overview of the public website. Linked pages contain the detailed
 
 Stepan Kukharskiy is an architect, computational designer, founder and co-founder of SA lab. He has worked with parametric design since 2010. His work connects architecture, computation and interactive 3D, with an emphasis on tools and artifacts that stay editable and buildable.
 
+Selected architectural experience:
+
+- Lakhta Center, St. Petersburg: worked as an architect developing design ideas for the parking areas of the complex. The complex includes Europe's tallest building, a 462-metre tower. Project context: https://lakhta.center/en/about/
+- Trudon boutique, Rockefeller Center, New York: helped prepare drawings for furniture, lighting and mirrors, supporting the store opening. Boutique context: https://www.rockefellercenter.com/magazine/shopping/trudon-at-rockefeller-center/
+
 His working thesis is: "I build systems that turn AI output into structured, editable work." A result should preserve enough structure to be inspected, changed and continued: geometry with editable intent, analysis tied to evidence, and routines with retained files and checks.
 
 His current AI Work series tests which real professional routines AI can do and turns successful procedures into reusable Skills. The goal is 100 tested jobs; one experiment is currently published. Follow his LinkedIn profile for new experiments.
 
 Architectural work has been published by ArchDaily, Designboom, Archinect and Architizer. The homepage links to specific examples of those publications.
+
+The homepage's architectural gallery shows FLEXSE, a built modular pavilion by SA lab photographed by Ekaterina Titenko; Under Yggdrasil, a SA lab trekking-lodge proposal for Iceland shown as an architectural rendering; and Crane Design Showroom, a built SA lab interior photographed by Ilya Ivanov. Stepan Kukharskiy is listed in the showroom's published design-team credits. Their published sources are:
+
+- FLEXSE / SA lab: https://www.archdaily.com/912669/flexse-sa-lab
+- Under Yggdrasil / SA lab: https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/
+- Crane Design Showroom / SA lab: https://architizer.com/projects/crane-design-showroom/
 
 - Homepage: https://stepankukharskiy.com/
 - LinkedIn: https://www.linkedin.com/in/stepan-kukharskiy-25347342

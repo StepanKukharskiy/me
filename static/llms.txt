@@ -4,6 +4,8 @@
 
 This is Stepan Kukharskiy's personal website. It covers independent projects, practical AI experiments and teaching. He has worked with parametric design since 2010 and co-founded SA lab.
 
+His architectural experience includes developing parking-area design ideas as an architect for Lakhta Center in St. Petersburg and helping prepare furniture, lighting and mirror drawings for the opening of Trudon's Rockefeller Center boutique in New York.
+
 His current AI Work series tests which real professional routines AI can do and turns successful procedures into reusable Skills. The goal is 100 tested jobs; one experiment is currently published. New experiments are shared on his LinkedIn profile.
 
 Relay, Spellshape / Live OBJ and Drawing Analysis Engine have separate scopes. Proposed integrations are directions to test, not shipped end-to-end features. The Chrome extension's portable Skill and saved-work flow does not require Relay Desktop.

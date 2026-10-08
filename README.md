@@ -13,6 +13,16 @@ The shared thesis is: "I build systems that turn AI output into structured, edit
 
 The homepage shows the actual checked Excel-to-PowerPoint output before the project cards. A shared LinkedIn follow prompt appears on the homepage, AI Work archive and experiment article. Article bylines and visible publication/update dates agree with their structured data; update dates should reflect real editorial changes.
 
+The Background section includes two architectural contributions described by Stepan:
+parking-area design ideas as an architect for Lakhta Center, and furniture, lighting
+and mirror drawings supporting the Trudon boutique opening at Rockefeller Center.
+Project links provide context about the buildings; they are not personal-role credits.
+The Background gallery uses published SA lab images from ArchDaily, Designboom and
+Architizer, with captions distinguishing the built FLEXSE pavilion and Crane Design
+Showroom from the Under Yggdrasil proposal rendering. Images are served locally and
+lazy-loaded. Source URLs and
+creator credits are recorded in `static/architecture/README.md` and shown on the page.
+
 ## Tech Stack
 
 - **Framework:** SvelteKit with TypeScript

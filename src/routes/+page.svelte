@@ -156,6 +156,102 @@
 				>. My work connects architecture, computation and interactive 3D, with an emphasis on tools
 				and artifacts that stay editable and buildable.
 			</p>
+			<div class="architecture-gallery" aria-label="Selected SA lab projects">
+				<figure>
+					<a href="https://www.archdaily.com/912669/flexse-sa-lab" aria-label="FLEXSE on ArchDaily">
+						<img
+							src="/architecture/flexse.jpg"
+							alt="FLEXSE, SA lab’s timber-clad modular pavilion, in a snowy landscape."
+							width="528"
+							height="315"
+							loading="lazy"
+							decoding="async"
+						/>
+					</a>
+					<figcaption>
+						<h3>FLEXSE · SA lab</h3>
+						<p>A built modular pavilion designed for adaptable uses.</p>
+						<p class="image-credit">
+							Photo © Ekaterina Titenko · <a href="https://www.archdaily.com/912669/flexse-sa-lab"
+								>ArchDaily</a
+							>
+						</p>
+					</figcaption>
+				</figure>
+				<figure>
+					<a
+						href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/"
+						aria-label="Under Yggdrasil on Designboom"
+					>
+						<img
+							src="/architecture/under-yggdrasil.jpg"
+							alt="Architectural rendering of SA lab’s Under Yggdrasil trekking-lodge proposal in an Icelandic landscape."
+							width="1800"
+							height="650"
+							loading="lazy"
+							decoding="async"
+						/>
+					</a>
+					<figcaption>
+						<h3>Under Yggdrasil · SA lab</h3>
+						<p>A modular trekking-lodge proposal for Iceland. Architectural rendering.</p>
+						<p class="image-credit">
+							Rendering: SA lab · <a
+								href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/"
+								>Designboom</a
+							>
+						</p>
+					</figcaption>
+				</figure>
+				<figure>
+					<a
+						href="https://architizer.com/projects/crane-design-showroom/"
+						aria-label="Crane Design Showroom on Architizer"
+					>
+						<img
+							src="/architecture/crane-design-showroom.jpg"
+							alt="Crane Design Showroom by SA lab, with a curved parametric aluminium structure defining the interior."
+							width="1680"
+							height="1121"
+							loading="lazy"
+							decoding="async"
+						/>
+					</a>
+					<figcaption>
+						<h3>Crane Design Showroom · SA lab</h3>
+						<p>A built showroom with a parametric aluminium structure.</p>
+						<p class="image-credit">
+							Photo © Ilya Ivanov · <a href="https://architizer.com/projects/crane-design-showroom/"
+								>Architizer</a
+							>
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			<p class="eyebrow">Selected architectural experience</p>
+			<div class="experience-grid">
+				<article>
+					<p class="location">St. Petersburg · Europe’s tallest building, 462 m</p>
+					<h3>Lakhta Center</h3>
+					<p><strong>Architect · Parking-area design</strong></p>
+					<p>I developed design ideas for the parking areas of the Lakhta Center complex.</p>
+					<a href="https://lakhta.center/en/about/">Project details →</a>
+				</article>
+				<article>
+					<p class="location">Rockefeller Center · New York</p>
+					<h3>Trudon boutique</h3>
+					<p><strong>Architectural drawings · Store opening</strong></p>
+					<p>
+						I helped prepare drawings for furniture, lighting and mirrors, supporting the opening of
+						Trudon’s boutique at Rockefeller Center.
+					</p>
+					<a
+						href="https://www.rockefellercenter.com/magazine/shopping/trudon-at-rockefeller-center/"
+					>
+						About the boutique →
+					</a>
+				</article>
+			</div>
 			<p>
 				Architectural work has been published by <a
 					href="https://www.archdaily.com/912669/flexse-sa-lab">ArchDaily</a
@@ -341,6 +437,58 @@
 		border-top: 1px solid #e5e7eb;
 		padding-top: 40px;
 	}
+	.experience-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 24px;
+		margin: 24px 0 32px;
+	}
+	.experience-grid article {
+		padding: 24px;
+		border: 1px solid #e5e7eb;
+		border-radius: 8px;
+	}
+	.experience-grid p {
+		font-size: 1rem;
+	}
+	.experience-grid .location {
+		font-size: 0.85rem;
+		color: #666;
+	}
+	.background > .eyebrow {
+		margin-top: 32px;
+		font-size: 0.8rem;
+	}
+	.architecture-gallery {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 24px;
+		margin: 32px 0;
+	}
+	.architecture-gallery figure {
+		margin: 0;
+		min-width: 0;
+		border: 1px solid #e5e7eb;
+		border-radius: 8px;
+		overflow: hidden;
+	}
+	.architecture-gallery img {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 10;
+		object-fit: cover;
+	}
+	.architecture-gallery figcaption {
+		padding: 20px 24px;
+	}
+	.architecture-gallery p {
+		font-size: 1rem;
+	}
+	.architecture-gallery .image-credit {
+		font-size: 0.85rem;
+		color: #666;
+	}
 	footer {
 		margin-top: 64px;
 		border-top: 1px solid #e5e7eb;
@@ -358,6 +506,8 @@
 	}
 	@media (max-width: 800px) {
 		.project-grid,
+		.experience-grid,
+		.architecture-gallery,
 		.experiment-proof {
 			grid-template-columns: 1fr;
 		}
