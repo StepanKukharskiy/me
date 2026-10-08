@@ -140,6 +140,22 @@
 				<article>
 					<p class="domain">Drawing → traceable analysis</p>
 					<h3>Drawing Analysis Engine</h3>
+					<figure class="project-visual drawing-visual">
+						<a
+							href={resolve('/projects#drawing-engine')}
+							aria-label="See the drawing-analysis example"
+						>
+							<img
+								src="/drawing-analysis/assets/annotated-section.png"
+								alt="Foundation section from the audit, with native geometry marked green, supporting dimensions blue and unresolved shapes orange."
+								width="780"
+								height="420"
+								loading="lazy"
+								decoding="async"
+							/>
+						</a>
+						<figcaption>PDF → annotated evidence. Unresolved shapes stay visible.</figcaption>
+					</figure>
 					<p>
 						Keep drawing evidence, declared values, calculations and engineer approval separate.
 						Preserve the source and explain unresolved geometry.
@@ -449,6 +465,11 @@
 		margin-top: 10px;
 		font-size: 0.85rem;
 		color: #666;
+	}
+	.drawing-visual img {
+		aspect-ratio: 1589 / 990;
+		object-fit: contain;
+		background: #f7fafc;
 	}
 	.project-grid a {
 		display: inline-block;
