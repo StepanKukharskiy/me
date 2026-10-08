@@ -107,10 +107,19 @@
 				<article>
 					<p class="domain">Routines → reusable work</p>
 					<h3>Relay</h3>
-					<p>
-						Turn a messy routine into a Skill and job, with artifacts, evidence, checks and explicit
-						exceptions. Keep the work ready to continue.
-					</p>
+					<figure class="project-visual">
+						<a href={resolve('/relay/chrome')} aria-label="See Relay’s Chrome extension in action">
+							<img
+								src="/relay/assets/relay-chrome-selected-text.png"
+								alt="Selected text in ChatGPT beside Task Relay’s Turn into Skill and Save work buttons."
+								width="1589"
+								height="990"
+								loading="lazy"
+								decoding="async"
+							/>
+						</a>
+						<figcaption>Select text → Turn into Skill.</figcaption>
+					</figure>
 					<p>
 						Select useful text in ChatGPT and turn it into a reusable Skill or saved work with the
 						Chrome extension.
@@ -424,6 +433,22 @@
 	}
 	.project-grid .domain {
 		font-size: 0.75rem;
+	}
+	.project-visual {
+		margin: 20px 0;
+	}
+	.project-visual img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: 1px solid #e5e7eb;
+		border-radius: 6px;
+		box-sizing: border-box;
+	}
+	.project-visual figcaption {
+		margin-top: 10px;
+		font-size: 0.85rem;
+		color: #666;
 	}
 	.project-grid a {
 		display: inline-block;

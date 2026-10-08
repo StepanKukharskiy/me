@@ -17,6 +17,14 @@
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://stepankukharskiy.com/relay/chrome" />
+	<meta
+		property="og:image"
+		content="https://stepankukharskiy.com/relay/assets/relay-chrome-selected-text.png"
+	/>
+	<meta
+		property="og:image:alt"
+		content="Selected ChatGPT text beside the Task Relay Chrome extension."
+	/>
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
@@ -44,6 +52,26 @@
 <p class="flow">
 	Select text → Turn into Skill or Save work → review and download → use in Codex or Relay
 </p>
+
+<figure class="extension-preview">
+	<a
+		href="/relay/assets/relay-chrome-selected-text.png"
+		rel="external"
+		aria-label="View the full Relay extension screenshot"
+	>
+		<img
+			src="/relay/assets/relay-chrome-selected-text.png"
+			alt="Selected text about designing an origami-like pavilion in ChatGPT, with Task Relay open beside it and the Turn into Skill button highlighted."
+			width="1589"
+			height="990"
+			decoding="async"
+		/>
+	</a>
+	<figcaption>
+		Select useful text in ChatGPT, then choose Turn into Skill or Save work. Click the image to view
+		it full size.
+	</figcaption>
+</figure>
 
 <section>
 	<h2>From a conversation to reusable work</h2>
@@ -101,6 +129,22 @@
 </section>
 
 <style>
+	.extension-preview {
+		margin: 32px 0;
+	}
+	.extension-preview img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: 1px solid #e5e7eb;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
+	.extension-preview figcaption {
+		margin-top: 12px;
+		font-size: 0.9rem;
+		color: #666;
+	}
 	.install {
 		display: inline-block;
 		padding: 12px 20px;
