@@ -2,8 +2,7 @@
 
 Selected from the existing project links at Stepan's request on 8 October 2026.
 Creator credits and publication links accompany all three images on the homepage.
-The photographs/renderings depict these SA lab projects; they do not depict the
-separate Lakhta Center or Trudon contributions listed below the gallery.
+The photographs/renderings depict the three SA lab projects described in the gallery.
 
 ## FLEXSE
 

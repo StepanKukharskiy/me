@@ -240,32 +240,8 @@
 					</figcaption>
 				</figure>
 			</div>
-			<p class="eyebrow">Selected architectural experience</p>
-			<div class="experience-grid">
-				<article>
-					<p class="location">St. Petersburg · Europe’s tallest building, 462 m</p>
-					<h3>Lakhta Center</h3>
-					<p><strong>Architect · Parking-area design</strong></p>
-					<p>I developed design ideas for the parking areas of the Lakhta Center complex.</p>
-					<a href="https://lakhta.center/en/about/">Project details →</a>
-				</article>
-				<article>
-					<p class="location">Rockefeller Center · New York</p>
-					<h3>Trudon boutique</h3>
-					<p><strong>Architectural drawings · Store opening</strong></p>
-					<p>
-						I helped prepare drawings for furniture, lighting and mirrors, supporting the opening of
-						Trudon’s boutique at Rockefeller Center.
-					</p>
-					<a
-						href="https://www.rockefellercenter.com/magazine/shopping/trudon-at-rockefeller-center/"
-					>
-						About the boutique →
-					</a>
-				</article>
-			</div>
 			<p>
-				Architectural work has been published by <a
+				My architectural work has appeared in publications including <a
 					href="https://www.archdaily.com/912669/flexse-sa-lab">ArchDaily</a
 				>,
 				<a
@@ -473,28 +449,6 @@
 		border-top: 1px solid #e5e7eb;
 		padding-top: 40px;
 	}
-	.experience-grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 24px;
-		margin: 24px 0 32px;
-	}
-	.experience-grid article {
-		padding: 24px;
-		border: 1px solid #e5e7eb;
-		border-radius: 8px;
-	}
-	.experience-grid p {
-		font-size: 1rem;
-	}
-	.experience-grid .location {
-		font-size: 0.85rem;
-		color: #666;
-	}
-	.background > .eyebrow {
-		margin-top: 32px;
-		font-size: 0.8rem;
-	}
 	.architecture-gallery {
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -543,7 +497,6 @@
 	@media (max-width: 800px) {
 		.project-grid,
 		.project-grid article,
-		.experience-grid,
 		.architecture-gallery,
 		.experiment-proof {
 			grid-template-columns: 1fr;
