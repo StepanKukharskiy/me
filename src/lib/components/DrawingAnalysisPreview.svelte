@@ -41,8 +41,8 @@
 	</figure>
 </div>
 <p class="example-note">
-	Actual drawing-analysis output. Click either image to inspect it full size. Source drawing: CSM
-	Consulting Engineers, Herbertsdale foundation layout, November 2015.
+	Actual drawing-analysis output. Click either image to inspect it full size. Source drawing: CSM,
+	Herbertsdale foundation layout, November 2015.
 </p>
 
 <style>
