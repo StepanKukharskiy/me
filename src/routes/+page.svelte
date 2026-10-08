@@ -155,10 +155,11 @@
 			<p class="eyebrow">Sharing the method</p>
 			<h2>Teaching</h2>
 			<p>
-				Lectures, workshops and webinars on computational design, AI workflows and spatial tools,
-				drawing on the systems and experiments I build.
+				From procedural design and interactive architecture to AI agents and reusable workflows.
+				Explore selected workshops and research with DigitalFUTURES and DesignMorphine, alongside my
+				current AI Work experiments.
 			</p>
-			<a href={resolve('/teaching')}>Teaching and workshops →</a>
+			<a href={resolve('/teaching')}>Explore teaching and research →</a>
 		</section>
 		<section class="background">
 			<h2>Background</h2>

@@ -19,7 +19,7 @@ Relay, Spellshape / Live OBJ and Drawing Analysis Engine have separate scopes. P
 - [Relay for Chrome](https://stepankukharskiy.com/relay/chrome): Select text in ChatGPT, choose Turn into Skill or Save work, review and download, then continue in Codex or another AI chat.
 - [AI Work](https://stepankukharskiy.com/ai-work): Practical experiments with real inputs, checked outputs and explicit limitations.
 - [Excel to PowerPoint experiment](https://stepankukharskiy.com/ai-work/excel-to-powerpoint-automation): A prepared six-slide monthly report update with 31 checked numeric targets, three editable charts and a missing explanation left for human review.
-- [Teaching](https://stepankukharskiy.com/teaching): Lectures, webinars and workshops on computational design, AI workflows and spatial tools.
+- [Teaching](https://stepankukharskiy.com/teaching): Selected workshops and research from 2013 to 2026, including DigitalFUTURES and DesignMorphine, with dated roles and original sources.
 
 ## Project resources
 

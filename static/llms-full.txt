@@ -111,13 +111,19 @@ This is a bounded worked example requiring template and mapping preparation. It 
 - Public verification summary: https://task-relay-website-production.up.railway.app/skills/assets/excel-to-powerpoint-v2-proof.json
 - Dataset attribution: https://doi.org/10.24432/C5BW33
 
-## Teaching and speaking
+## Teaching and research
 
-Stepan gives lectures, webinars and workshops on computational design, AI workflows and spatial tools, including work with DesignMorphine and DigitalFUTURES.
+Stepan has explored computational design since 2010, connecting parametric modeling and digital fabrication to interactive applications, AI agents and reusable workflows. The Teaching page presents a selected public archive with dates, roles, original sources and archival images.
 
-Topics include parametric/procedural design, defining inputs and checking AI outputs, making procedures reusable, and moving between models, interfaces and buildable work.
+- July 2013: Adaptive City, AA Shanghai Global School. Project-team member with Alina Chereyskaya, Liu Qinglin and Xu Quan He; tutor Daniel Gillen. Erosion-based generative urbanism research, published 6 January 2014. Source: https://salab.org/news/2014/1/6/processes-of-erosion-as-a-way-to-design-an-adaptive-city
+- 27–30 June and 1 July 2021: WEBITECTURE / Parametric vs Generative, SA lab × DigitalFUTURES. Co-instructor with Alina Chereyskaya. Blender, browser-based modular architecture, Three.js, Grasshopper and Anemone. Source: https://salab.org/news/2021/5/23/sa-lab-x-digitalfututres
+- 27 June–1 July 2022: The Wormhole Gallery, SA lab × DigitalFUTURES. Co-instructor with Alina Chereyskaya. Rhino/Grasshopper to Blender and interactive web environments. Source: https://digitalfutures.international/workshop/the-wormhole-gallery/
+- 25–28 July 2024: AI Multi-agent Systems: Creating a Voxel City, DigitalFUTURES. Co-instructor with Albert Sumin and Alina Chereyskaya. AI agent workflows, Blender assets and browser-based 3D. Source: https://digitalfutures.international/ai-multi-agent-systems/
+- 18 April 2026: Magic Models V1.0, DesignMorphine. Co-tutor with James McBennett. Neural 3D generation with ComfyUI and language-driven procedural geometry with Spellshape. Source: https://designmorphine.com/education/magic-models-v1-0
 
-- Teaching: https://stepankukharskiy.com/teaching
+Current AI Work and Relay experiments connect that history to reusable Agent Skills, native-file outputs and checked professional routines. They are current research and materials, not additional past workshops. Workshop inquiries include computational design, interactive 3D and turning recurring tasks into reviewed Skill proposals; working automation still needs testing and checks.
+
+- Teaching archive: https://stepankukharskiy.com/teaching
 - Workshop, lecture and collaboration contact: https://www.linkedin.com/in/stepan-kukharskiy-25347342
 
 ## Website privacy
