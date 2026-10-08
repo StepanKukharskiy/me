@@ -131,6 +131,22 @@
 				<article>
 					<p class="domain">Intent → editable geometry</p>
 					<h3>Spellshape / Live OBJ</h3>
+					<figure class="project-visual">
+						<a
+							href={resolve('/projects#live-obj')}
+							aria-label="See Spellshape’s editable geometry example"
+						>
+							<img
+								src="/spellshape/assets/spellshape-live-obj-controls.jpg"
+								alt="A faceted tower and plaza in Rhino beside named Spellshape geometry controls in Grasshopper."
+								width="1280"
+								height="720"
+								loading="lazy"
+								decoding="async"
+							/>
+						</a>
+						<figcaption>3D geometry → named, editable controls.</figcaption>
+					</figure>
 					<p>
 						Keep portable mesh geometry together with semantic and procedural metadata, so a scene
 						can keep changing in tools that understand it.
