@@ -27,6 +27,13 @@ locally without visual edits; source credits appear beside the images.
     James McBennett) and topic were verified against the public education data
     used by the original page, at `/api/educations/magic-models-v1-0?include=nav`.
 
+The 2020 Adaptive Architecture entry is verified against the official eCAADe
+conference program: https://www.ecaade.org/prev-conf/archive/ecaade2020/#workshopexhibition.
+It names Stepan Kukharskiy (SA lab) as workshop lead, describes JavaScript,
+WebGL and Three.js web applications, and dates the workshops to 14–15 September.
+The conference was held online and hosted by Technische Universität Berlin.
+This entry uses a source link without adding an unrelated image.
+
 The 2021 entry is verified against the bilingual SA lab announcement:
 https://salab.org/news/2021/5/23/sa-lab-x-digitalfututres.
 It lists WEBITECTURE on 27–30 June and Parametric vs Generative on 1 July.

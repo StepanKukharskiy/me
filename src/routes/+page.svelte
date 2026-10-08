@@ -156,8 +156,8 @@
 			<h2>Teaching</h2>
 			<p>
 				From procedural design and interactive architecture to AI agents and reusable workflows.
-				Explore selected workshops and research with DigitalFUTURES and DesignMorphine, alongside my
-				current AI Work experiments.
+				Explore selected workshops and research with eCAADe, DigitalFUTURES and DesignMorphine,
+				alongside my current AI Work experiments.
 			</p>
 			<a href={resolve('/teaching')}>Explore teaching and research →</a>
 		</section>

@@ -6,7 +6,7 @@
 	<title>Teaching and Research — Computational Design to AI Workflows | Stepan Kukharskiy</title>
 	<meta
 		name="description"
-		content="Selected workshops and research by Stepan Kukharskiy: Adaptive City, DigitalFUTURES, DesignMorphine and current AI Work experiments. Dates, roles and original sources."
+		content="Selected workshops and research by Stepan Kukharskiy: Adaptive City, eCAADe, DigitalFUTURES, DesignMorphine and current AI Work experiments. Dates, roles and original sources."
 	/>
 	<link rel="canonical" href="https://stepankukharskiy.com/teaching" />
 </svelte:head>
@@ -53,6 +53,24 @@
 					href="https://salab.org/news/2014/1/6/processes-of-erosion-as-a-way-to-design-an-adaptive-city"
 					>Read the research account →</a
 				> · Published 6 January 2014
+			</p>
+		</article>
+		<article id="ecaade-2020">
+			<p class="record-date">
+				<time datetime="2020-09-14">14–15 September 2020</time> · Workshop
+			</p>
+			<h3>Adaptive Architecture — eCAADe 2020</h3>
+			<p class="role">Workshop lead · SA lab · Online conference hosted by TU Berlin</p>
+			<p>
+				The workshop introduced JavaScript, WebGL and Three.js through building interactive
+				architectural web applications. Participants explored how a browser-based interface could
+				let people interact with adaptive spaces and structures, generate design options and test
+				alternative configurations.
+			</p>
+			<p class="source">
+				<a href="https://www.ecaade.org/prev-conf/archive/ecaade2020/#workshopexhibition"
+					>Official eCAADe 2020 workshop program →</a
+				>
 			</p>
 		</article>
 		<article id="digitalfutures-2021">
