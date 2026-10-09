@@ -75,6 +75,7 @@
 					<a
 						href={resolve('/ai-work/excel-to-powerpoint-automation')}
 						aria-label="See the checked Excel-to-PowerPoint report"
+						class="image-stage"
 					>
 						<img
 							src="/ai-work/assets/excel-to-powerpoint-v1-february-kpis.png"
@@ -172,7 +173,11 @@
 			</p>
 			<div class="architecture-gallery" aria-label="Selected SA lab projects">
 				<figure>
-					<a href="https://www.archdaily.com/912669/flexse-sa-lab" aria-label="FLEXSE on ArchDaily">
+					<a
+						class="image-stage"
+						href="https://www.archdaily.com/912669/flexse-sa-lab"
+						aria-label="FLEXSE on ArchDaily"
+					>
 						<img
 							src="/architecture/flexse.jpg"
 							alt="FLEXSE, SA lab’s timber-clad modular pavilion, in a snowy landscape."
@@ -196,6 +201,7 @@
 					<a
 						href="https://www.designboom.com/architecture/sa-lab-modular-trekking-lodge-iceland-under-yggdrasil-09-10-2016/"
 						aria-label="Under Yggdrasil on Designboom"
+						class="image-stage"
 					>
 						<img
 							src="/architecture/under-yggdrasil.jpg"
@@ -221,6 +227,7 @@
 					<a
 						href="https://architizer.com/projects/crane-design-showroom/"
 						aria-label="Crane Design Showroom on Architizer"
+						class="image-stage"
 					>
 						<img
 							src="/architecture/crane-design-showroom.jpg"
@@ -366,6 +373,18 @@
 	.ai-work > p:first-of-type {
 		margin: 0 0 20px;
 	}
+	.image-stage {
+		display: block;
+		padding: 16px;
+		background: #f5f3ef;
+		border-radius: 10px;
+	}
+	.image-stage img {
+		transform: rotate(var(--image-angle, -1.1deg));
+		box-shadow:
+			0 2px 4px rgb(31 41 55 / 8%),
+			0 12px 22px -10px rgb(31 41 55 / 28%);
+	}
 	.experiment-proof {
 		display: grid;
 		grid-template-columns: 1fr 1.1fr;
@@ -405,7 +424,7 @@
 		box-sizing: border-box;
 	}
 	.experiment-proof figcaption {
-		margin-top: 10px;
+		margin-top: 16px;
 		font-size: 0.85rem;
 		color: #666;
 	}
@@ -434,7 +453,7 @@
 		margin: 0;
 	}
 	.project-visual figcaption {
-		margin-top: 10px;
+		margin-top: 16px;
 		font-size: 0.85rem;
 		color: #666;
 	}
@@ -460,6 +479,15 @@
 		gap: 24px;
 		margin: 32px 0;
 	}
+	.architecture-gallery figure:nth-child(1) {
+		--image-angle: -2deg;
+	}
+	.architecture-gallery figure:nth-child(2) {
+		--image-angle: 1.5deg;
+	}
+	.architecture-gallery figure:nth-child(3) {
+		--image-angle: -1.2deg;
+	}
 	.architecture-gallery figure {
 		margin: 0;
 		min-width: 0;
@@ -473,6 +501,11 @@
 		height: auto;
 		aspect-ratio: 16 / 10;
 		object-fit: cover;
+		border-radius: 6px;
+	}
+	.architecture-gallery .image-stage {
+		padding: 14px;
+		border-radius: 0;
 	}
 	.architecture-gallery figcaption {
 		padding: 20px 24px;
@@ -502,6 +535,9 @@
 		background: white;
 	}
 	@media (max-width: 800px) {
+		.image-stage img {
+			transform: rotate(calc(var(--image-angle, -1.1deg) * 0.6));
+		}
 		.project-grid,
 		.project-grid article,
 		.architecture-gallery,

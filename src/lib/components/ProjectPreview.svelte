@@ -90,6 +90,12 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 12px;
 	}
+	.paired,
+	.drawing {
+		padding: 20px 18px 24px;
+		border-radius: 12px;
+		background: #f5f3ef;
+	}
 	.paired > div {
 		min-width: 0;
 	}
@@ -105,6 +111,13 @@
 		border: 1px solid #e5e7eb;
 		border-radius: 6px;
 		background: #fff;
+		transform: rotate(-1.8deg);
+		box-shadow:
+			0 2px 4px rgb(31 41 55 / 8%),
+			0 12px 22px -10px rgb(31 41 55 / 28%);
+	}
+	.paired > div:nth-child(2) .crop {
+		transform: translateY(6px) rotate(1.4deg);
 	}
 	.paired .crop {
 		aspect-ratio: 0.95;
@@ -137,6 +150,7 @@
 	}
 	.drawing-crop {
 		aspect-ratio: 2.2;
+		transform: rotate(-1deg);
 	}
 	.drawing-crop img {
 		width: 120%;
@@ -149,7 +163,7 @@
 		gap: 8px 16px;
 		list-style: none;
 		padding: 0;
-		margin: 12px 0 0;
+		margin: 20px 0 0;
 		font-size: 0.75rem;
 		color: #555;
 	}
@@ -173,6 +187,15 @@
 		background: #f58a00;
 	}
 	@media (max-width: 480px) {
+		.crop {
+			transform: rotate(-0.8deg);
+		}
+		.paired > div:nth-child(2) .crop {
+			transform: rotate(0.8deg);
+		}
+		.drawing-crop {
+			transform: rotate(-0.6deg);
+		}
 		.paired {
 			grid-template-columns: 1fr;
 			gap: 20px;
