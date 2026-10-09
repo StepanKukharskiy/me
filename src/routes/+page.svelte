@@ -39,8 +39,8 @@
 	<main id="main">
 		<section class="hero">
 			<div class="identity">
+				<img src="/Stepan_Kukharskiy.jpg" alt="Stepan Kukharskiy" width="72" height="72" />
 				<p class="eyebrow">Architect · computational designer · founder</p>
-				<img src="/Stepan_Kukharskiy.jpg" alt="Stepan Kukharskiy" width="112" height="112" />
 			</div>
 			<h1>I build systems that turn AI output into structured, editable work.</h1>
 			<p class="lede">
@@ -323,14 +323,17 @@
 	}
 	.identity {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		gap: 20px;
+		gap: 16px;
+	}
+	.identity .eyebrow {
+		margin: 0;
+		line-height: 1.5;
 	}
 	.identity img {
-		width: 64px;
-		height: 64px;
-		border-radius: 8px;
+		width: 72px;
+		height: 72px;
+		border-radius: 12px;
 		object-fit: cover;
 		flex-shrink: 0;
 	}
@@ -519,8 +522,8 @@
 			padding: 24px 20px;
 		}
 		.identity img {
-			width: 48px;
-			height: 48px;
+			width: 56px;
+			height: 56px;
 		}
 		header {
 			gap: 16px;
