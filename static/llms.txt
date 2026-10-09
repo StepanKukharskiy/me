@@ -35,6 +35,10 @@ Relay, Spellshape / Live OBJ and Drawing Analysis Engine have separate scopes. P
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/stepan-kukharskiy-25347342): Workshops, speaking and collaboration inquiries.
+- [Instagram](https://www.instagram.com/stepan.kukharskiy/): Personal profile.
+- [X](https://x.com/steve_steve25): Personal profile.
+- [Medium](https://medium.com/@stepan.kukharskiy): Personal profile.
+- [YouTube](https://www.youtube.com/@stepan.kukharskiy): Personal channel.
 - [GitHub](https://github.com/StepanKukharskiy): Personal source-code profile.
 
 ## Optional

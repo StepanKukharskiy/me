@@ -2,6 +2,7 @@
 	import { resolve } from '$app/paths';
 	import ProjectPreview from '$lib/components/ProjectPreview.svelte';
 	import FollowExperiments from '$lib/components/FollowExperiments.svelte';
+	import ProfileLinks from '$lib/components/ProfileLinks.svelte';
 </script>
 
 <svelte:head>
@@ -254,10 +255,11 @@
 		</section>
 	</main>
 	<footer>
-		<a href="https://www.linkedin.com/in/stepan-kukharskiy-25347342">LinkedIn</a><a
-			href="https://github.com/StepanKukharskiy">GitHub</a
-		><a href={resolve('/ai-work/privacy')}>Privacy</a>
-		<a href={resolve('/site-activity')}>Site activity</a>
+		<ProfileLinks />
+		<nav aria-label="Website information">
+			<a href={resolve('/ai-work/privacy')}>Privacy</a>
+			<a href={resolve('/site-activity')}>Site activity</a>
+		</nav>
 	</footer>
 </div>
 
@@ -275,8 +277,7 @@
 		color: #222;
 	}
 	header,
-	nav,
-	footer {
+	nav {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 24px;
@@ -481,6 +482,8 @@
 		color: #666;
 	}
 	footer {
+		display: grid;
+		gap: 20px;
 		margin-top: 64px;
 		border-top: 1px solid #e5e7eb;
 		padding-top: 24px;

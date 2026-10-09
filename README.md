@@ -121,6 +121,10 @@ counts are estimates; privacy details are at `/ai-work/privacy`.
 
 **Connect with me:**
 - [LinkedIn](https://www.linkedin.com/in/stepan-kukharskiy-25347342)
+- [Instagram](https://www.instagram.com/stepan.kukharskiy/)
+- [X](https://x.com/steve_steve25)
+- [Medium](https://medium.com/@stepan.kukharskiy)
+- [YouTube](https://www.youtube.com/@stepan.kukharskiy)
 - [GitHub](https://github.com/StepanKukharskiy)
 
 ## AI Work editorial archive
