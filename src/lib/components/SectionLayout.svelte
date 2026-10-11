@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import ProfileLinks from '$lib/components/ProfileLinks.svelte';
+	import BookCall from '$lib/components/BookCall.svelte';
 	let { children } = $props();
 </script>
 
@@ -16,6 +17,7 @@
 	</header>
 	<main id="main">{@render children()}</main>
 	<footer>
+		<BookCall />
 		<ProfileLinks />
 		<nav aria-label="Footer navigation">
 			<a href={resolve('/projects')}>Projects</a><a href={resolve('/ai-work')}>Experiments</a><a

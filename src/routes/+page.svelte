@@ -3,6 +3,7 @@
 	import ProjectPreview from '$lib/components/ProjectPreview.svelte';
 	import FollowExperiments from '$lib/components/FollowExperiments.svelte';
 	import ProfileLinks from '$lib/components/ProfileLinks.svelte';
+	import BookCall from '$lib/components/BookCall.svelte';
 </script>
 
 <svelte:head>
@@ -262,6 +263,7 @@
 		</section>
 	</main>
 	<footer>
+		<BookCall />
 		<ProfileLinks />
 		<nav aria-label="Website information">
 			<a href={resolve('/ai-work/privacy')}>Privacy</a>
