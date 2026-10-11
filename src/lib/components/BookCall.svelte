@@ -1,7 +1,9 @@
 <section aria-labelledby="book-call-title">
 	<h2 id="book-call-title">Let’s talk</h2>
 	<p>Have a project involving AI workflows, computational design or architecture?</p>
-	<a href="https://cal.com/stepan-kukharskiy-lrmsly/30min">Book a 30-minute call →</a>
+	<a class="primary-link" href="https://cal.com/stepan-kukharskiy-lrmsly/30min"
+		>Book a 30-minute call →</a
+	>
 </section>
 
 <style>
@@ -22,12 +24,19 @@
 		line-height: 1.6;
 		color: #666;
 	}
-	a {
+	section a.primary-link {
+		display: inline-block;
 		width: fit-content;
-		color: #4f6bd8;
-		text-underline-offset: 3px;
+		padding: 10px 16px;
+		border-radius: 6px;
+		background: #2563eb;
+		color: #fff;
+		font-size: 1.1rem;
+		font-weight: 600;
+		line-height: 1.7;
+		text-underline-offset: 4px;
 	}
-	a:hover {
-		color: #1f3d9d;
+	section a.primary-link:hover {
+		background: #1d4ed8;
 	}
 </style>
